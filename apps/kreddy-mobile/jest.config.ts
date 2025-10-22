@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: '@test-monorepo/kreddy-mobile',
+  displayName: 'kreddy-mobile',
   resolver: require.resolve('./jest.resolver.js'),
   preset: 'jest-expo',
   moduleFileExtensions: ['ts', 'js', 'html', 'tsx', 'jsx'],

@@ -1,16 +1,16 @@
 {
   "expo": {
     "name": "KreddyMobile",
-    "slug": "@test-monorepo/kreddy-mobile",
+    "slug": "kreddy-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "@test-monorepo/kreddy-mobile",
+    "scheme": "kreddy-mobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.matin.zadeh.dolatabad.testmonorepokreddymobile"
+      "bundleIdentifier": "com.expo.monorepo"
     },
     "android": {
       "adaptiveIcon": {
@@ -18,11 +18,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.matin.zadeh.dolatabad.testmonorepokreddymobile"
-    },
-    "web": {
-      "bundler": "metro",
-      "favicon": "./assets/images/favicon.png"
+      "package": "com.expo.monorepo"
     },
     "plugins": [
       [

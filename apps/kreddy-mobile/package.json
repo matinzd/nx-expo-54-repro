@@ -1,9 +1,10 @@
 {
-  "name": "@test-monorepo/kreddy-mobile",
+  "name": "kreddy-mobile",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/kreddy-mobile",
+    "start": "expo start -d",
     "android": "expo run:android",
     "ios": "expo run:ios"
   },
@@ -11,6 +12,7 @@
     "@expo/metro-config": "*",
     "@testing-library/react-native": "*",
     "expo": "*",
+    "expo-dev-client": "*",
     "expo-splash-screen": "*",
     "expo-status-bar": "*",
     "expo-system-ui": "*",
@@ -18,9 +20,6 @@
     "metro-config": "*",
     "metro-resolver": "*",
     "react": "*",
-    "react-native": "*",
-    "react-native-svg": "*",
-    "react-native-svg-transformer": "*",
-    "react-native-web": "*"
+    "react-native": "*"
   }
 }
