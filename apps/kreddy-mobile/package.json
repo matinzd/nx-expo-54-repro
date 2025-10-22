@@ -9,7 +9,6 @@
     "ios": "expo run:ios"
   },
   "dependencies": {
-    "@expo/metro-config": "*",
     "@testing-library/react-native": "*",
     "expo": "*",
     "expo-dev-client": "*",
