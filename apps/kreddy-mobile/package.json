@@ -9,16 +9,16 @@
     "ios": "expo run:ios"
   },
   "dependencies": {
-    "@testing-library/react-native": "*",
     "expo": "*",
     "expo-dev-client": "*",
     "expo-splash-screen": "*",
     "expo-status-bar": "*",
     "expo-system-ui": "*",
-    "jest-expo": "*",
-    "metro-config": "*",
-    "metro-resolver": "*",
     "react": "*",
     "react-native": "*"
+  },
+  "devDependencies": {
+    "@testing-library/react-native": "*",
+    "jest-expo": "*"
   }
 }
